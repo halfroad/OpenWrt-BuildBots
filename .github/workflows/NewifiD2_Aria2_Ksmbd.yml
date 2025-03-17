@@ -28,7 +28,7 @@ jobs:
         run: |
           git clone --depth=1 https://github.com/openwrt/openwrt.git OpenWrt
           cd OpenWrt
-          cp ../newifiD2_aria2_ksmbd.config .config
+          cp ../NewifiD2_Aria2_Ksmbd.config .config
 
       - name: Install Feeds
         run: |
